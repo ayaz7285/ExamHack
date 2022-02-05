@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.change-bgcolor:hover{
+  background-color: #ffb5a7;
+  color:white;
+  transition: all 1s;
+}
+
+.zoom-in:hover{
+  transition: all .5s;
+  transform: scale(1.1);
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+  @media only screen and (min-width:786px) {
+      #mobile-view{
+          display: none;
+      }
+  }
+  @media only screen and (max-width:787px) {
+      #laptop-view{
+          display: none;
+      }
+  }
