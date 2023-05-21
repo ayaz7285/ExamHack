@@ -47,10 +47,10 @@ git clone https://github.com/ayaz7285/ExamHack.git
 cd ExamHack
 ```
 4. Install the required dependencies for the server: 
-   ```
-   cd backend
-   npm install
-   ```
+```
+cd backend
+npm install
+```
 5. Start the server:
 ```
 npm start app.js
