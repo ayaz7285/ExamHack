@@ -27,7 +27,7 @@ The Peer to Peer Study Material Sharing Website is built using the following tec
 - Front-end:
   - React.js: A JavaScript library for building user interfaces.
   - HTML and CSS: Used for structuring and styling the web pages.
-  - Redux: A predictable state container for managing application state.
+  - Material UI: Used components to create a visually appealing and interactive user experience with responsive layouts and pre-built styles.
 
 - Back-end:
   - Node.js: A JavaScript runtime for executing server-side code.
