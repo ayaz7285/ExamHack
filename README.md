@@ -38,9 +38,57 @@ The Peer to Peer Study Material Sharing Website is built using the following tec
 
 To run the Peer to Peer Study Material Sharing Website locally, follow these steps:
 
-1. Clone the repository to your local machine using the following command: git clone https://github.com/ayaz7285/ExamHack.git
-2. Navigate to the project directory: cd ExamHack
-3. Install the required dependencies for the server: 
+1. Clone the repository to your local machine using the following command: 
+```
+git clone https://github.com/ayaz7285/ExamHack.git
+```
+3. Navigate to the project directory: 
+```
+cd ExamHack
+```
+4. Install the required dependencies for the server: 
+   ```
    cd backend
    npm install
+   ```
+5. Start the server:
+```
+npm start app.js
+```
+6. Open a new terminal window and navigate to the client directory:
+```
+cd frontend
+```
+7. Install the required dependencies for the client:
+```
+npm install
+```
+8. Start the server
+```
+npm start
+```
+9. Open your web browser and visit `http://localhost:3000` to access the Website.
 
+## Contributing
+
+Contributions to the Peer to Peer Study Material Sharing Website are welcome! If you find any bugs, have feature requests, or want to contribute improvements, please follow these steps:
+
+1. Fork the repository on GitHub.
+
+2. Create a new branch for your feature/bug fix.
+
+3. Make the necessary changes in your branch.
+
+4. Commit your changes with descriptive commit messages.
+
+5. Push your branch to your forked repository.
+
+6. Submit a pull request to the main repository, explaining your changes and why they should be merged.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any inquiries or further information, please contact [Ayaz Sarwar] at [ayaz.3.sarwarchem@gmail.com].
